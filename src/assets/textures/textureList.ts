@@ -1,2 +1,6 @@
-export { default as dirt } from './dirt.webp'
-export { default as grassTop } from './grass-top.webp'
+export { default as dirtBlock } from './dirt-block.webp'
+export { default as grassBlockTop } from './grass-block-top.webp'
+export { default as grassBlockSide } from './grass-block-side.webp'
+export { default as oakBlockTopBottom } from './oak-block-top-bottom.webp'
+export { default as oakBlockSide} from './oak-block-side.webp'
+export { default as glass } from './glass.webp'

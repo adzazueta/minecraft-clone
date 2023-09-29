@@ -1,10 +1,17 @@
-import { grassTop } from "./textureList";
+import { grassBlockTop, dirtBlock } from "./textureList";
 
 import { TextureLoader, RepeatWrapping, NearestFilter } from "three";
 
-const grassTopTexture = new TextureLoader().load(grassTop)
-grassTopTexture.wrapS = RepeatWrapping
-grassTopTexture.wrapT = RepeatWrapping
-grassTopTexture.magFilter = NearestFilter
+// GrassBlockTop
+const grassBlockTopTexture = new TextureLoader().load(grassBlockTop)
+grassBlockTopTexture.wrapS = RepeatWrapping
+grassBlockTopTexture.wrapT = RepeatWrapping
+grassBlockTopTexture.magFilter = NearestFilter
 
-export { grassTopTexture }
+// DirtBlock
+const dirtBlockTexture = new TextureLoader().load(dirtBlock)
+dirtBlockTexture.wrapS = RepeatWrapping
+dirtBlockTexture.wrapT = RepeatWrapping
+dirtBlockTexture.magFilter = NearestFilter
+
+export { grassBlockTopTexture }
