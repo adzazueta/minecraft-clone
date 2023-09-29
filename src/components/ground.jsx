@@ -10,7 +10,7 @@ export function Ground() {
   grassBlockTopTexture.repeat.set(100, 100)
 
   return (
-    <mesh ref={ref}>
+    <mesh ref={ ref }>
       <planeGeometry attach='geometry' args={[100, 100]} />
       <meshStandardMaterial attach='material' map={ grassBlockTopTexture } />
     </mesh>

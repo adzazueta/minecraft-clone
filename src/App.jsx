@@ -4,6 +4,7 @@ import { Physics } from '@react-three/cannon'
 
 import { Ground } from './components/ground'
 import { FirstPointView } from './components/FirstPointView'
+import { Player } from './components/Player'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <ambientLight intensity={1} />
       <FirstPointView />
       <Physics>
+        <Player />
         <Ground />
       </Physics>
     </Canvas>
